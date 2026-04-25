@@ -11,7 +11,7 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
- Şu kodları kontrol et ve yapılması gereken ne varsa hepsini yapplugins {
+plugins {
     id("org.gradle.toolchains.foojay-resolver-convention") version "1.0.0"
 }
 dependencyResolutionManagement {
